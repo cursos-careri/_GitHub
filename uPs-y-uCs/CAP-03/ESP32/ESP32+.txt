@@ -1,0 +1,4 @@
+Revisar los siguientes sitios:
+
+- Principal referencia:
+http://esp32.net 

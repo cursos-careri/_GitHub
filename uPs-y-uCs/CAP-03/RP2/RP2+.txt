@@ -1,0 +1,7 @@
+Revisar los siguientes sitios:
+
+- Principal referencia:
+https://www.raspberrypi.com/products/raspberry-pi-pico/ 
+
+- Texto en: F:\R\S\_uPython\__RP2\_INFO
+- + + Get started with MicroPython on Raspberry Pi Pico

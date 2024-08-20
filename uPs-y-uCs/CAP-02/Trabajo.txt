@@ -1,0 +1,71 @@
+Crear un documento en Power Point (o diapositivas) que trate sobre lo siguiente:
+
+ Explicación básica sobre la genealogía de los dispositivos uPs
+ * 4040 -- 8080 -- Z80
+	... y por otro lado: 6800 - 6809 - 6502 - ...
+	Consolas de juego - Computadoras Personales (¿Cómo se acuña el término?)
+ 
+ * Específicamente sobre dispositivos y sistemas uPs:
+	- Origen del uP
+	- Principales ejemplos. Genealogía.
+	- Líneas o familias de dispositivos uPs
+	- Diferencias entre dispositivos y sistemas uPs
+	- Ejemplos de SISTEMAS basados en uPs
+	
+ * Origen del uC
+	- Necesidades de la industria. Elementos especializados
+	- Requerimiento de una "solución en una solla pastilla"
+	- Diferencia en el tipo de solución a buscar:
+		- Problemas lógicos, abstractos, con lenguajes de alto nivel
+		- Problemas matemáticos, procesando señales, con lenguajes de bajo nivel
+	- Orientación de las arquitecturas (cómo se organizan los recursos a nivel 
+	  de compuerta, lógico)
+		- Tecnología de implementación CISC (Complex Instruction Set Computer)
+		- Tecnología de implementación RISC (Reduced Instruction Set Computer)
+	- Arquitecturas de los dispositivos:
+		- Von Neumann
+			- Ver diagramas y ejemplo de organización, cómo se comparte el bus 
+			  de memorias
+		- Harvard
+			- Ver diagramas y ejemplos, cómo se separan las memorias
+			
+ * Orígenes e inicos de los sistemas uCs 
+	- Tipos o familias principales:
+		Motorola (68HC11) - PIC (PIC16F84) - AVR (ATM-328P)
+		National - Phillips (80C51) - STM32  - Varios más
+	- Dimensiones de los uCs (bus de datos)
+		- 8 bits, 16 bits, 32 bits, 64 bits
+	- Recursos
+		- Entradas / Salidas digitales - Temporizadores - ADC - DAC - WDT - PWM
+		- Memorias (FLASH, EEPROM) - Comunicación (I2C, SPI, CAN, USB, SCL, ...)
+		- Brown-Out - Deep Sleep - Otras cosas
+		
+== REVISAR ==
+
+Dispositivos uCs de 16 o 32 bits, que se emplean en tareas industriales, de automatización, instrumentación y desarrollo
+	
+* ESP32
+	- Arquitecturas
+	- Tarjetas, sistemas, módulos
+	- Recursos básicos que proporcionan a un usuario
+		- DEV KIT1 - LILY-TTGO - M5STACK - 
+	
+	- Herramientas de programación
+		- Editor Thonny
+			- Ajuste para versiones de Python
+			- Instalación del 'firmware' adecuado
+			- Uso de la terminal REPL
+			- Ciclo de trabajo básico
+			
+* RASPBERRY Pi PICO 
+	- Arquitectura basada en RP2040 (uC Inglés, para RP)
+	- Tarjetas, sistemas, módulos
+	- Recursos básicos que proporcionan a un usuario
+		- Variantes en el mercado -
+	
+	- Herramientas de programación
+		- Editor Thonny
+			- Ajuste para versiones de Python
+			- Instalación del 'firmware' adecuado
+			- Uso de la terminal REPL
+			- Ciclo de trabajo básico
